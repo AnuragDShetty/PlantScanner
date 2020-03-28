@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/drawerlayout">
 
 
     <LinearLayout
@@ -20,7 +21,9 @@
     <android.support.design.widget.NavigationView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:menu="@menu/nav_menu">
+        app:menu="@menu/nav_menu"
+        android:layout_gravity="start"
+        android:id="@+id/navigation_view">
 
     </android.support.design.widget.NavigationView>
 </android.support.v4.widget.DrawerLayout>
